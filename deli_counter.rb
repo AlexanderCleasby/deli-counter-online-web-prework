@@ -42,3 +42,5 @@ end
 new_deli = Deli.new
 new_deli.take_a_number([])
 new_deli.take_a_number([1])
+new_deli.now_serving([1,2])
+
