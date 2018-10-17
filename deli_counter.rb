@@ -17,7 +17,7 @@ end
 
 
 def take_a_number(array)
-  @@ticket+=
+  @@ticket+=1
   array.push(@@ticket)
   puts "Welcome, your ticket number is #{@@ticket} and you are #{array.length} in line."
   array
