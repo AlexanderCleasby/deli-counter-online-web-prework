@@ -39,4 +39,6 @@ def now_serving(line)
 end
 
 end
-line(["Emily","Alex"])
+new_deli = Deli.new
+new_deli.take_a_number([])
+
