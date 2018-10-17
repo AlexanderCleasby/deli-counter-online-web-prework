@@ -40,5 +40,4 @@ end
 
 end
 new_deli = Deli.new
-new_deli.take_a_number([1])
-
+new_deli.take_a_number([])
