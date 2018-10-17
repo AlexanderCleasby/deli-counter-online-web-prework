@@ -30,4 +30,3 @@ def now_serving(line)
 end
 
 line(["Emily","Alex"])
-
