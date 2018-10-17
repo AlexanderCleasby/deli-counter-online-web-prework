@@ -1,4 +1,7 @@
 # Write your code here.
+class Deli
+  @@ticket = 1
+
 def line(deli)
   if (deli.length==0)
     puts "The line is currently empty."
@@ -13,11 +16,17 @@ def line(deli)
 end
 
 
-def take_a_number(array,customer)
+def take_a_number(array)
+  @@ticket+=
   array.push(customer)
-  puts "Welcome, #{customer}. You are number #{array.length} in line."
+  puts "Welcome, your ticket number is #{@@ticket} and you are #{array.length} in line."
   array
 end
+#def take_a_number(array,customer)
+#  array.push(customer)
+#  puts "Welcome, #{customer}. You are number #{array.length} in line."
+#  array
+#end
 
 def now_serving(line)
   if (line.length==0)
@@ -29,4 +38,5 @@ def now_serving(line)
   end
 end
 
+end
 line(["Emily","Alex"])
