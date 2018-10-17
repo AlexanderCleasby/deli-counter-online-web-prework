@@ -1,6 +1,6 @@
 # Write your code here.
 class Deli
-  @@ticket = 1
+  @@ticket = 0
 
 def line(deli)
   if (deli.length==0)
